@@ -2,4 +2,4 @@
 
 
 
-This is going to become my personal site and I am exited/nervous to see how it turns out. 
+This is going to become my personal site and I am excited/nervous to see how it turns out. 
