@@ -1,0 +1,55 @@
+body {
+    background-color: #1E1E1E;
+
+
+}
+
+h1 {
+    color: #ECE5D3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 86px;
+}
+
+hr
+
+h2 {
+    color: #ECE5D3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+}
+
+h3 {
+    color: #ECE5D3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+}
+
+h4 {
+    color: #ECE5D3;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+}
+
+a:link {
+    color: #D9D9D9;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+
+a:hover {
+    color: #ECE5D3;
+}
+
+
+
+
