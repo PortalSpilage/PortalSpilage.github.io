@@ -43,7 +43,7 @@ h1 {
 
 .title {
     color: rgb(255, 0, 0);
-    font-size: 300%;
+    font-size: 50pt;
     padding: 50px 20px;
     margin: 0 auto;
     max-width: 980px;
@@ -55,7 +55,7 @@ h1 {
 
 .smith {
     color: rgb(255, 0, 0);
-    font-size: 300%;
+    font-size: 50pt;
     padding: 50px 20px;
     margin: 0 auto;
     max-width: 980px;
