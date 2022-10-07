@@ -143,6 +143,7 @@ img {
     display: block;
     width: 300px;
     height: 400px;
+    overflow: hidden;
     
 }
 
@@ -162,24 +163,35 @@ img {
     color: black;
 }
 
+.heading {
+    padding-left: 25px;
+}
+
+.pp {
+    padding-left: 25px;
+}
+
 .p {
     padding-left: 40px;
     font-size: 13pt;
 }
 
 
-  @media screen and (min-device-width: 0px) and (max-device-width: 400px) {
-    .grid {
+     @media screen and (min-device-width: 390px) and (max-device-width: 844px) {
+    .grid { 
         display: grid;
-        grid-template-rows: 1fr 2fr;
+       
         gap: 5px;
         width: 100%;
         margin: auto;
+        
+        
+        
     } 
 
 }
 
-@media screen and (min-device-width: 401px) and (max-device-width: 1900px) {
+    @media screen and (min-device-width: 401px) and (max-device-width: 1900px) {
     .grid {
         display: grid;
        
@@ -188,4 +200,4 @@ img {
         margin: auto;
     } 
 
-}
+} 
