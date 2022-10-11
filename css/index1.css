@@ -176,6 +176,10 @@ img {
     font-size: 13pt;
 }
 
+.body {
+    height: 100vh;
+}
+
 
      @media screen and (min-device-width: 390px) and (max-device-width: 844px) {
     .grid { 
