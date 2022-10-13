@@ -44,9 +44,9 @@ newStory = newStory.replace(":insertz:", zItem);
   }
 
   if(document.getElementById("uk").checked) {
-    var stonesPerPound = 0.0714286;
-    var weight = Math.round(300*stonesPerPound)+' stone';
+    const weight = Math.round(300 * 0.0714286) + "stones";
     const temperature =  Math.round(94);
+    var newStory = newStory.replace('300 pounds', weight);
 }
 
   story.textContent = newStory;
