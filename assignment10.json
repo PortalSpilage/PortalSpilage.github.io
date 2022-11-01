@@ -1,0 +1,36 @@
+{
+    "companyName": "Tech Stars",
+    "website": "www.techstars.site",
+    "employees": [
+      {
+        "name": "Sam",
+        "salary": 40000,
+        "department": "Tech",
+        "designation": "Manager",
+        "raise": true
+      },
+      {
+        "name": "Mary",
+        "salary": 18500,
+        "department": "Finance",
+        "designation": "Trainee",
+        "raise": true
+      },
+      {
+        "name": "Anna",
+        "salary": 25600,
+        "department": "Tech",
+        "designation": "Executive",
+        "raise": false
+      },
+      {
+        "name": "Bill",
+        "salary": 21200,
+        "department": "HR",
+        "designation": "Executive",
+        "raise": false
+      }
+    ]
+  }
+
+

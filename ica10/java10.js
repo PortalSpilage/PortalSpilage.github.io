@@ -16,7 +16,7 @@ function random(min, max) {
 // function to generate random color
 
 function randomRGB() {
-  return `rgb(${random(0, 255)},${random(0, 255)},${random(0, 255)})`;
+  return `rgb(${random(150, 255)},${random(255, 255)},${random(255, 255)})`;
 }
 
 class Ball  {
@@ -79,8 +79,8 @@ testBall.draw();
 
 const balls = [];
 
-while (balls.length < 25) {
-  const size = random(10, 20);
+while (balls.length < 100) {
+  const size = random(20, 300);
   const ball = new Ball(
     // ball position always drawn at least one ball width
     // away from the edge of the canvas, to avoid drawing errors
