@@ -1,0 +1,45 @@
+body {
+    background: #6c373f;
+    display: flex;
+    justify-content: center;
+    }
+  
+  .buttonSet {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  button {
+    height: 36px;
+    margin-top: 20px;
+  } 
+
+    #alice-container {
+    width: 90vh;
+    display: grid;
+    place-items: center;
+    grid-template-areas:
+      "a1 . ."
+      ". a2 ."
+      ". . a3";
+  }
+  
+  #alice1 {
+    grid-area: a1;
+  }
+  
+  #alice2 {
+    grid-area: a2;
+  }
+  
+  #alice3 {
+    grid-area: a3;
+  }
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background: #333333;
+  color: #ffffff;
+}
